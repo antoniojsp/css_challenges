@@ -1,0 +1,30 @@
+:root {
+    --color: rgb(183, 183, 183);
+}
+
+p {
+    line-height: 1.5em;
+}
+
+.spoiler {
+    background-color: black;
+    color:black;
+    transition: all 0.6s ease-in-out;
+}
+
+.spoiler:hover {
+    background-color: var(--color);
+}
+
+.post {
+    background-color: var(--color);
+    padding: 3px;
+    gap: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.post p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
