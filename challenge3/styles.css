@@ -13,21 +13,23 @@ html, body {
     margin:  20px;
 }
 .container input{
-    width:33%;
+    width:30%;
     height:40px;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
     margin-left: 10px;
     border-radius: 4px;
 }
 
 .container input:focus{
     width:90%;
-    border-color:  2px solid #4CAF50;
+    border-color:  2px solid var(--search-focus-border);
+
 }
 
 
 .container input    {
     padding: 10px;
+    border: 1px solid var(--search-border);
 }
 
 .container input:focus::placeholder{
