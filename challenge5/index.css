@@ -1,0 +1,43 @@
+:root {
+    --color-light: lightgray;
+    --color-dark: darkgray;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px
+}
+
+.circle {
+
+    background-color: var(--color-dark);
+    border-radius: 50%;
+    animation-name: myAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: pulse;
+    animation-direction: alternate; 
+}
+
+@keyframes myAnimation {
+    from {
+        background-color: var(--color-dark);
+        width: 1.5em;
+        height: 1.5em;
+    }
+
+    to {
+        background-color: var(--color-light);
+        width: 1.6em;
+        height: 1.6em;
+    }
+}
