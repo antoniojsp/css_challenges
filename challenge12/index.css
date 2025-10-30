@@ -1,0 +1,38 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: #fff;
+    --red: #FF0002;
+    --side: 400px;
+}
+
+.flag {
+    margin:auto;    
+    margin-top:60px;
+    height: var(--side);
+    width: var(--side);
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cross1 {
+    position: absolute;
+    height: calc(var(--side)*6/32);
+    width: calc(var(--side)*20/32);
+}
+
+
+.cross2 {
+    height: calc(var(--side)*20/32);
+    width: calc(var(--side)*6/32);
+}
+
+.cross{
+    background-color: white;
+}

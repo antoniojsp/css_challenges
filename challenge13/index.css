@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+:root {
+    --white: #FFFFFF;
+    --red: #BC022C;
+    --flag-height: 200px;
+    --flag-width: calc(var(--flag-height) * 3/2);
+}
+
+
+.flag{
+    height: var(--flag-height);
+    width: var(--flag-width);
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    height: calc(var(--flag-height)*3/5);
+    width: calc(var(--flag-height)*3/5);
+    border-radius: 50%;
+    background-color: var(--red);
+}

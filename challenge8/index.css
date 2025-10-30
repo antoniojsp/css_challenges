@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --bg-word: #5134ff;
+}
+ 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.texto::after{
+    content: none;
+    background-color: var(--bg-word);
+    padding: 10px;
+    color:white;
+    border-radius: 5px;
+    margin-left: 4px;
+
+    animation-name: myAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes myAnimation {
+  0%   {content: "Python";}
+  25%  {content: "CSS";}
+  50%  {content: "React";}
+  75%  {content: "HTML"}
+  100% {content: "Python";}
+}

@@ -1,0 +1,87 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    padding-top: 40px;
+}
+
+:root {
+    --red: #ED2938;
+    --white: #FFF;
+    --blue: #002495;
+    --flag-height: 150px;
+    --section-len: calc(100%/3);
+}
+
+
+.flag-france {
+    display: flex;
+    height: var(--flag-height);
+    width: calc(var(--flag-height)*3/2);
+}
+
+
+.flag-france div{
+    height: 100%;
+    width: var(--section-len);
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.white {
+    background-color: var(--white);
+}
+
+.red {
+    background-color: var(--red);
+}
+
+/* 
+html,
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    padding-top: 40px;
+}
+
+:root {
+    --red: #ED2938;
+    --white: #FFF;
+    --blue: #002495;
+    --flag-height: 150px;
+    --section-len: calc(100%/3);
+}
+
+
+.flag-france {
+    display: flex;
+    height: var(--flag-height);
+    width: calc(var(--flag-height)*3/2);
+    background-color: white;
+}
+
+.stripe{
+    flex-grow: 1;
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.white {
+    background-color: var(--white);
+}
+
+.red {
+    background-color: var(--red);
+}  */

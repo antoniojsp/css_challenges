@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+:root {
+    --white: #FFFFFF;
+    --red: #FC3E32;
+    --green: #007E39;
+    --flag-height: 250px;
+    --flag-width: calc(var(--flag-height) * 3 / 2);
+}
+
+
+.flag-madagascar{
+    height: var(--flag-height);
+    width: var(--flag-width);
+    background-color: pink;
+    margin: 20px;
+    display: flex;
+}
+
+.white{
+    background-color: var(--white);
+    width: calc(var(--flag-height)/2);
+}
+
+.red{
+    background-color: var(--red);
+    height: 50%;
+    width: var(--flag-height);
+
+}
+
+.green{
+    background-color: var(--green);
+    height: 50%;
+    width: var(--flag-height);
+}
