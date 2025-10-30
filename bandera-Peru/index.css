@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    background-color: black;
+}
+
+:root {
+    --red: #DE0002;
+    --white: white;
+    --flag-height: 300px;
+    --with: calc(var(--flag-height) * 3/2)
+}
+
+.flag-peru{
+    height: var(--flag-height);
+    width: calc(var(--flag-height) * 3/2);
+    /* background-color: red; */
+    display: flex;
+}
+
+.stripe{
+    width: var(--with);
+}
+
+.red{
+    background-color: var(--red);
+    height: var(--flag-height);
+}
+
+.white{
+    background-color: var(--white);
+    height: var(--flag-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: auto;
+    height: calc(var(--flag-height)*1/2);
+    object-fit: cover;
+}

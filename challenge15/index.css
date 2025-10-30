@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+:root {
+   --orange: #E15307;
+   --white: #FFFFFF;
+   --green: #10AF2A;
+   --flag-height: 200px;
+   --flag-width: calc(var(--flag-height)*7/6);
+
+   --diameter:calc((var(--flag-width)/3)*(85/100));
+}
+
+.flag{
+    display: grid;
+    height: var(--flag-height);
+    width: var(--flag-width);
+    background-color: pink;
+    /* position: relative; */
+}
+
+.stripe{
+    height: calc(var(--flag-width)/3);
+}
+
+.orange{
+    background-color: var(--orange);
+}
+
+.white{
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green{
+    background-color: var(--green);
+}
+
+.circle{
+    height: var(--diameter);
+    width: var(--diameter);
+    background-color: var(--orange);
+    border-radius: 50%;
+    /* position: absolute; */
+}
