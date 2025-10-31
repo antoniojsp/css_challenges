@@ -25,6 +25,7 @@ body {
 
 .profile-container {
     background-color: var(--main-bg);
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,10 +58,9 @@ body {
 
 .profile-details button {
     all: unset;
-    text-align: center;
-    font-size: inherit;
-    padding: 5px;
-    width: 270px;
+    text-align: center;    
+    padding: 0.25px;
+    width: 100%;
     border-radius: 5px;
     color: var(--btn-color);
     background-color: var(--btn-bg);
