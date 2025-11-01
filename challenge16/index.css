@@ -45,10 +45,9 @@ body {
 }
 
 .profile-content img {
-    margin-top: 20px;
     border-radius: 50%;
     width: 260px;
-    margin-bottom: -10px;
+    margin-bottom: -20px;
     border: 2px solid var(--profile-img-border);
 }
 
