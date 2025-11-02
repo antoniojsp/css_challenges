@@ -1,0 +1,29 @@
+body, html {
+  margin: 0;
+} 
+
+:root {
+  --spinner: #f3f3f3;
+  --spinner-active: purple;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader{
+  width: 150px;
+  height:150px;
+  border: 22px solid var(--spinner);;
+  border-radius: 50%;
+}
+
+.loader{
+    background: conic-gradient(
+      orange 0deg 30deg, /* sector angle */
+      transparent 0deg 30deg  );
+      
+}
