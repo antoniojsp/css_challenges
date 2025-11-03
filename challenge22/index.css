@@ -25,7 +25,34 @@ html {
 }
 
 @keyframes loader {
+  0% {
+    transform: rotate(0deg);
+    border-top-color: blue;
+  }
+
+  25% {
+    transform: rotate(144deg);
+    border-top-color: red;
+
+  }
+
+  50% {
+    transform: rotate(216deg);
+    border-top-color: yellow;
+
+  }
+
+  75% {
+    transform: rotate(288deg);
+    border-top-color: green;
+
+  }
+
   100% {
     transform: rotate(360deg);
+    border-top-color: pink;
+
   }
+
+
 }
